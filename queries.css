@@ -1,0 +1,19 @@
+@media (max-width: 69em) {
+  html {
+    font-size: 58%;
+  }
+  main {
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 58em) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-right img {
+    display: flex;
+  }
+}
